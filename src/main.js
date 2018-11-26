@@ -6,7 +6,7 @@ import App from './App'
 import router from './router'
 import VueAxios from 'vue-axios'
 import VueAuthenticate from 'vue-authenticate'
-import axios from 'axios';
+import axios from 'axios'
 import authConfigs from '../config/auth.configs'
 
 window.$ = require('jquery')
@@ -27,7 +27,6 @@ require('./assets/js/jquery-jvectormap-1.2.2.min')
 require('./assets/js/jquery-jvectormap-world-mill-en')
 require('./assets/js/jquery.slimscroll.min')
 require('./assets/js/Chart')
-//require('./assets/js/pages/dashboard2')
 require('./assets/js/demo')
 
 Vue.use(VueAxios, axios)

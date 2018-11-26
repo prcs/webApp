@@ -70,9 +70,7 @@ export default {
       })
     },
     register: function () {
-      this.$auth.register({ name, email, password }).then(function () {
-        // Execute application logic after successful registration
-      })
+      
     }
   }
 }
